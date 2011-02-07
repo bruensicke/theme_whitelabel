@@ -26,7 +26,7 @@ If you need to use CakePHP 1.2 for whatever reason, try to symlink the webroot f
 
 Within your CakePHP applications root type the following command to add theme_whitelabel as a git submodule.
 
-	git submodule add git@github.com/bruensicke/theme_whitelabel.git app/views/themed/front
+	git submodule add git@github.com:bruensicke/theme_whitelabel.git app/views/themed/front
 
 ## Development
 
