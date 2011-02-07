@@ -1,11 +1,11 @@
-# Whitelabel webfront
+# Theme Whitelabel
 
 This is a theme used for various web applications running CakePHP 1.3.
 It can be easily customized to a certain Corporate Identity. It goals include:
 
 **Assume nothing:** The Whitelabel theme should work without any additional content available.
 
-**Keep it flexible:** The Whitelabel theme should be flexible in a way that changing some colors, some margins or settings it is possible to achieve a complete different look & feel. It can be a starting point for different branded themes.
+**Keep it flexible:** The Whitelabel theme should be flexible in a way that by changing some colors, some margins or settings it is possible to achieve a complete different look & feel. It can be a starting point for different branded themes.
 
 **Keep it lightweight:** The Underlying markup is lightweight, easy to transform and free of markup-overhead just to produce more visually appealing results. The markup should treat the content with respect and work without the inclusion of tons of libraries.
 
@@ -24,7 +24,7 @@ If you need to use CakePHP 1.2 for whatever reason, try to symlink the webroot f
 
 ## Installation
 
-Within your CakePHP applications root type the following command to add theme_whitelabel as a submodule.
+Within your CakePHP applications root type the following command to add theme_whitelabel as a git submodule.
 
 	git submodule add git@github.com/bruensicke/theme_whitelabel.git app/views/themed/front
 

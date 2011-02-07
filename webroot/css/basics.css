@@ -1,0 +1,121 @@
+body {
+	font-family: Arial,Tahoma,Helvetica,Verdana,sans-serif;
+	margin: 0;
+	padding: 0;
+	}
+
+h1, h1 a {
+	color: #fff;
+	font-size: 110%;
+	margin-bottom: 4px;
+	}
+
+h2 a {
+	text-decoration: none;
+	}
+
+h3, h4 {
+	margin-bottom: 4px;
+	}
+
+code {
+	background-color: #f0f0f0;
+	padding: 3px 6px;
+	}
+
+abbr {
+	cursor: help;
+	}
+
+.mark { background-color: #FFE871; padding: 3px 6px; }
+.color1 { color: #0083D4; }
+.color2 { color: #2E8D1A; }
+
+.btnbar { float: right; }
+
+/* tabs */
+div.tabs {
+	color: #eee;
+	position: relative;
+	display: block;
+	background-color: #666;
+	height: 28px;
+	}
+
+	div.tabs ul li {
+		float: left;
+		display: block;
+		list-style-type: none;
+		margin: 3px 5px 0px;
+		padding: 5px;
+		vertical-align: baseline;
+		}
+
+	div.tabs ul li span { font-size: smaller; }
+	div.tabs ul li span input { margin: 0; padding: 0; }
+
+	div.tabs ul li.active { background: #fff; }
+	div.tabs ul li.active a { color: #555; }
+	div.tabs ul li a { display: block; color: #eee; text-decoration: none; }
+
+	/* for list views */
+	div.list {
+		border: 1px solid #888;
+		border-top: 0;
+		}
+
+	div.list div.tabs {
+		top: 0;
+		background-color: #888;
+		}
+
+
+ul.horiz li {
+	float: left;
+	display: inline;
+	list-style-type: none;
+	margin: 0 5px;
+	padding-right: 0px;
+	padding-left: 0px;
+	vertical-align: baseline;
+	}
+
+	ul.horiz li a { display: block; padding: 0 3px 0 0;}
+	ul.horiz.small li a { display: block; padding: 0 3px 0 0;}
+
+.c, .clear { clear: both; }
+.cl, .clearleft { clear: left; }
+.cr, .clearright { clear: right; }
+
+.half { width: 47%; }
+.full { width: 98%; }
+
+.fleft { float: left; }
+.fright { float: right; }
+
+.cake-sql-log {
+	position:fixed;
+	top:97%;
+	z-index:10;
+	width:100%;
+	background-color:#000;
+	color:#FFF;
+	border-collapse:collapse;
+}
+
+.cake-sql-log caption {
+	background-color:#900;
+	color:#FFF;
+}
+
+.cake-sql-log:hover {
+	top:auto;
+	bottom:0;
+}
+
+.cake-sql-log td {
+	padding:3px;
+	border:1px solid #999;
+	background-color:#EEE;
+	color:#000;
+}
